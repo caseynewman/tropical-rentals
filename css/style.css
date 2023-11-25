@@ -25,28 +25,25 @@ header {
     margin-bottom: 25px;
 }
 
-header img {
-    margin-top: 0;
-}
-
-header nav ul {
-    display: none;
-}
 
 
-@media screen and ('min-width:480px') {
 
-header nav ul {
+@media screen and (min-width:480px) {
+
+nav ul {
     display: flex;
 }
 
-header nav ul li {
+nav li {
     padding: 10px;
     font-size: .7em;
     font-family: georgia;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     color: white;
 }
+
+
+
 
 }
